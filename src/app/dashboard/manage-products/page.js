@@ -6,7 +6,7 @@ export const metadata = {
 const ManageProductPage = () => {
     return (
         <div>
-            ManageProductPage
+            Manage Products Page
         </div>
     );
 };

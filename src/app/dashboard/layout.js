@@ -1,3 +1,5 @@
+import DashboardNav from "@/components/Navbar/Dashboard/DashboardNav/DashboardNav";
+
 export const metadata = {
     title: 'Dashboard | My First Next Js',
     description: 'My First Next Js',
@@ -5,8 +7,8 @@ export const metadata = {
 
 const DashboardLayout = ({ children }) => {
     return (
-        <div>
-            <div>Side Bar</div>
+        <div className="container mx-auto flex gap-10">
+            <DashboardNav/>
             {children}
         </div>
     );
