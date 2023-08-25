@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import NavLink from './ActiveLink/NavLink';
 
 const Navbar = () => {
     const navLinks = [
@@ -30,9 +31,14 @@ const Navbar = () => {
             <ul className='flex items-center justify-between gap-4 text-gray-500'>
                 {
                     navLinks.map(({ path, title }) => <li key={path}>
-                        <Link href={path}
-                        className='hover:text-black hover:border-b-2 border-black transition duration-300'
-                        >{title}</Link>
+                        <NavLink
+                            href={path}
+                            exact={path === '/'}
+                            activeClassName='text-blue-500 border-b-2 border-blue-500'
+                            className='hover:text-black hover:border-b-2 border-black transition duration-300'
+                        >
+                            {title}
+                        </NavLink>
                     </li>)
                 }
             </ul>
