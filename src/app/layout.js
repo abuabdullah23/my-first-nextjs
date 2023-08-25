@@ -1,7 +1,11 @@
+import { Roboto } from "next/font/google";
 import "./globals.css";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ['100', '400', '500', '700'],
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   title: "My First Next Js",
@@ -11,7 +15,7 @@ export const metadata = {
 function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${roboto.variable} font-roboto`}>
         {children}
       </body>
     </html>
