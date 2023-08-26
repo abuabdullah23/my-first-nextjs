@@ -1,3 +1,4 @@
+import loadBlogsData from "@/utils/api/loadBlogsData";
 import loadSingleBlogData from "@/utils/api/loadSingleBlogData";
 
 export const generateMetadata = async ({ params }) => {
@@ -7,8 +8,16 @@ export const generateMetadata = async ({ params }) => {
     }
 }
 
-const SingleBlog = async ({ params }) => {
+// generateStaticParams statically
+export const generateStaticParams = async () => {
+    const blogs = await loadBlogsData();
 
+    return blogs.map(({ id }) => ({
+        id: id.toString(),
+    }))
+}
+
+const SingleBlog = async ({ params }) => {
     // load single blogs data from api
     const { id, title, body } = await loadSingleBlogData(params.id);
     return (
