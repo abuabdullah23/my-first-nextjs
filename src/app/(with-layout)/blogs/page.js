@@ -1,3 +1,4 @@
+import loadBlogsData from "@/utils/api/loadBlogsData";
 import Link from "next/link";
 
 export const metadata = {
@@ -38,11 +39,7 @@ const BlogsPage = async () => {
     //     },
     // ]
 
-    // Data fetching in next.js
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts', {
-        cache: "force-cache",
-    });
-    const blogs = await res.json();
+    const blogs = await loadBlogsData();
 
     return (
         <div className="container mx-auto">
