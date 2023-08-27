@@ -11,6 +11,14 @@ const HomePage = () => {
         src={image1} 
         placeholder="blur" 
         alt="Image 1" 
+        />
+
+        {/* Image from public */}
+        <Image
+        src='/flower.jpeg' 
+        width={400}
+        height={300}
+        alt="" 
         />        
         
 
