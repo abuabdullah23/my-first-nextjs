@@ -5,7 +5,7 @@ const WithLayout = ({ children }) => {
     return (
         <div>
             <Navbar />
-            <div className='container mx-auto'>
+            <div className='container mx-auto mt-16'>
                 {children}
             </div>
         </div>
