@@ -1,9 +1,14 @@
 import Categories from "@/components/HomePage/Categories/Categories";
+import PopularProducts from "@/components/HomePage/PopularProducts/PopularProducts";
+import { Suspense } from "react";
 
 const HomePage = () => {
   return (
     <main>
-      <Categories/>
+      <Categories />
+      <Suspense fallback={<h1 className='text-center font-semibold text-2xl text-black'>Loading...</h1>}>
+        <PopularProducts />
+      </Suspense>
 
     </main>
   )
