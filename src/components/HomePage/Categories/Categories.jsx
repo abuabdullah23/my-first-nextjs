@@ -6,7 +6,7 @@ const Categories = async () => {
     return (
         <div>
             <h1>Categories</h1>
-            <div className="flex items-center gap-3">
+            <div className="lg:flex items-center lg:gap-6">
                 {
                     categories.map((category) => <SingleCategory
                         key={category.id}
