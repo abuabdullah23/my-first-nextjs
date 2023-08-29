@@ -1,6 +1,6 @@
 const wait = () => {
     return new Promise ((resolve, reject) => {
-        setTimeout(()=> {reject('Rejected')}, 5000)
+        setTimeout(resolve, 5000)
     });
 };
 
