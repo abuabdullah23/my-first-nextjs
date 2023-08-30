@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ManageSingleProduct = ({ product, index }) => {
+const ManageSingleProduct = ({ product, index, openModal }) => {
     const { id, title, price, categoryId, imageUrl } = product;
     return (
         <tr className='text-center w-full'>
@@ -11,7 +11,9 @@ const ManageSingleProduct = ({ product, index }) => {
             <td className='border border-gray-400 p-2'>{title}</td>
             <td className='border border-gray-400'>{price}</td>
             <td className='border border-gray-400'>
-                <button className='text-gray-400 hover:text-gray-700'>
+                <button
+                onClick={()=> openModal(product)}
+                className='text-gray-400 hover:text-gray-700'>
                     Update
                 </button>
             </td>
