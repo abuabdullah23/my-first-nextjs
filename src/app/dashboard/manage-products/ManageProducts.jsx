@@ -57,6 +57,23 @@ const ManageProducts = ({ products }) => {
         }
     }
 
+    // Delete single product using json server
+    const handleDelete = async (id) => {
+        try {
+            // ${process.env.BASE_API_URL}
+            const res = await fetch(`http://localhost:5000/products/${id}`, {
+                method: "DELETE",
+            });
+            const result = await res.json();
+            startTransition(() => {
+                router.refresh();
+            })
+            console.log(result);
+        } catch (error) {
+            console.log(error.message);
+        }
+    };
+
     return (
         <div>
             <table className={`border-collapse w-full ${isLoading ? 'opacity-50' : 'opacity-100'}`}>
@@ -78,12 +95,13 @@ const ManageProducts = ({ products }) => {
                                 index={index}
                                 product={product}
                                 openModal={openModal}
+                                handleDelete={handleDelete}
                             />
                         ))
                     }
                 </tbody>
             </table>
-            <Modal ref={modalRef} closeModal={closeModal} updateData={updateData} handleSubmit={handleSubmit} />
+            <Modal ref={modalRef} closeModal={closeModal} updateData={updateData} handleSubmit={handleSubmit}/>
         </div>
     );
 };
