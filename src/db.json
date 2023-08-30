@@ -1,185 +1,185 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Electronics",
-            "imageUrl": "https://example.com/electronics.jgp"
-        },
-        {
-            "id": 2,
-            "name": "Clothing",
-            "imageUrl": "https://example.com/clothing.jgp"
-        },
-        {
-            "id": 3,
-            "name": "Books",
-            "imageUrl": "https://example.com/books.jgp"
-        },
-        {
-            "id": 4,
-            "name": "Home Decor",
-            "imageUrl": "https://example.com/HomeDecor.jgp"
-        },
-        {
-            "id": 5,
-            "name": "Sports",
-            "imageUrl": "https://example.com/Sports.jgp"
-        },
-        {
-            "id": 6,
-            "name": "Beauty",
-            "imageUrl": "https://example.com/Beauty.jgp"
-        },
-        {
-            "id": 7,
-            "name": "Kitchenware",
-            "imageUrl": "https://example.com/Kitchenware.jgp"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "title": "iPhone 12",
-            "price": 999,
-            "categoryId": 1,
-            "features": [
-                "A14 Bionic chip",
-                "Super Retina XDR display",
-                "Dual-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 2,
-            "title": "Samsung Galaxy S21",
-            "price": 899,
-            "categoryId": 1,
-            "features": [
-                "Exynos 2100 processor",
-                "Dynamic AMOLED 2X display",
-                "Triple-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 3,
-            "title": "Google Pixel 5",
-            "price": 699,
-            "categoryId": 1,
-            "features": [
-                "Snapdragon 765G processor",
-                "OLED display",
-                "Dual-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 4,
-            "title": "OnePlus 9",
-            "price": 799,
-            "categoryId": 2,
-            "features": [
-                "Snapdragon 888 processor",
-                "Fluid AMOLED display",
-                "Triple-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 5,
-            "title": "Xiaomi Mi 11",
-            "price": 749,
-            "categoryId": 2,
-            "features": [
-                "Snapdragon 888 processor",
-                "AMOLED display",
-                "Triple-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 6,
-            "title": "Sony Xperia 1 III",
-            "price": 1099,
-            "categoryId": 2,
-            "features": [
-                "Snapdragon 888 processor",
-                "4K OLED display",
-                "Triple-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 7,
-            "title": "LG Velvet 2",
-            "price": 699,
-            "categoryId": 3,
-            "features": [
-                "Snapdragon 765G processor",
-                "OLED display",
-                "Dual-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 8,
-            "title": "Apple iPhone SE",
-            "price": 399,
-            "categoryId": 3,
-            "features": [
-                "A13 Bionic chip",
-                "Retina HD display",
-                "Single-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 9,
-            "title": "Samsung Galaxy A52",
-            "price": 349,
-            "categoryId": 3,
-            "features": [
-                "Snapdragon 720G processor",
-                "Super AMOLED display",
-                "Quad-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 10,
-            "title": "Google Pixel 4a",
-            "price": 349,
-            "categoryId": 4,
-            "features": [
-                "Snapdragon 730G processor",
-                "OLED display",
-                "Single-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 11,
-            "title": "OnePlus Nord 2",
-            "price": 399,
-            "categoryId": 4,
-            "features": [
-                "MediaTek Dimensity 1200 processor",
-                "AMOLED display",
-                "Triple-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        },
-        {
-            "id": 12,
-            "title": "Xiaomi Redmi Note 10 Pro",
-            "price": 279,
-            "categoryId": 4,
-            "features": [
-                "Snapdragon 732G processor",
-                "AMOLED display",
-                "Quad-camera system"
-            ],
-            "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "imageUrl": "https://example.com/electronics.jgp"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "imageUrl": "https://example.com/clothing.jgp"
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "imageUrl": "https://example.com/books.jgp"
+    },
+    {
+      "id": 4,
+      "name": "Home Decor",
+      "imageUrl": "https://example.com/HomeDecor.jgp"
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "imageUrl": "https://example.com/Sports.jgp"
+    },
+    {
+      "id": 6,
+      "name": "Beauty",
+      "imageUrl": "https://example.com/Beauty.jgp"
+    },
+    {
+      "id": 7,
+      "name": "Kitchenware",
+      "imageUrl": "https://example.com/Kitchenware.jgp"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 12",
+      "price": "1001",
+      "categoryId": 1,
+      "features": [
+        "A14 Bionic chip",
+        "Super Retina XDR display",
+        "Dual-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S21",
+      "price": "900",
+      "categoryId": 1,
+      "features": [
+        "Exynos 2100 processor",
+        "Dynamic AMOLED 2X display",
+        "Triple-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 3,
+      "title": "Google Pixel 5",
+      "price": "695",
+      "categoryId": 1,
+      "features": [
+        "Snapdragon 765G processor",
+        "OLED display",
+        "Dual-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 4,
+      "title": "OnePlus 9",
+      "price": 799,
+      "categoryId": 2,
+      "features": [
+        "Snapdragon 888 processor",
+        "Fluid AMOLED display",
+        "Triple-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi Mi 11",
+      "price": "749",
+      "categoryId": 2,
+      "features": [
+        "Snapdragon 888 processor",
+        "AMOLED display",
+        "Triple-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 6,
+      "title": "Sony Xperia i",
+      "price": "500",
+      "categoryId": 2,
+      "features": [
+        "Snapdragon 888 processor",
+        "4K OLED display",
+        "Triple-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 7,
+      "title": "LG Velvet 2",
+      "price": 699,
+      "categoryId": 3,
+      "features": [
+        "Snapdragon 765G processor",
+        "OLED display",
+        "Dual-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 8,
+      "title": "Apple iPhone SE",
+      "price": 399,
+      "categoryId": 3,
+      "features": [
+        "A13 Bionic chip",
+        "Retina HD display",
+        "Single-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 9,
+      "title": "Samsung Galaxy A52",
+      "price": 349,
+      "categoryId": 3,
+      "features": [
+        "Snapdragon 720G processor",
+        "Super AMOLED display",
+        "Quad-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 10,
+      "title": "Google Pixel 4a",
+      "price": 349,
+      "categoryId": 4,
+      "features": [
+        "Snapdragon 730G processor",
+        "OLED display",
+        "Single-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 11,
+      "title": "OnePlus Nord 2",
+      "price": 399,
+      "categoryId": 4,
+      "features": [
+        "MediaTek Dimensity 1200 processor",
+        "AMOLED display",
+        "Triple-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    },
+    {
+      "id": 12,
+      "title": "Xiaomi Redmi Note 10 Pro",
+      "price": 279,
+      "categoryId": 4,
+      "features": [
+        "Snapdragon 732G processor",
+        "AMOLED display",
+        "Quad-camera system"
+      ],
+      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
+    }
+  ]
 }
