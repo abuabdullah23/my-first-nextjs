@@ -1,4 +1,4 @@
-import getAllProducts from "@/utils/api/getAllProducts";
+import getAllProducts from "@/utils/fetched-data/getAllProducts";
 import SingleProduct from "./SingleProduct";
 
 const ProductsPage = async ({ searchParams }) => {

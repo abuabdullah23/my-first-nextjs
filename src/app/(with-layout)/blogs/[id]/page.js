@@ -1,5 +1,5 @@
-import loadBlogsData from "@/utils/api/loadBlogsData";
-import loadSingleBlogData from "@/utils/api/loadSingleBlogData";
+import loadBlogsData from "@/utils/fetched-data/loadBlogsData";
+import loadSingleBlogData from "@/utils/fetched-data/loadSingleBlogData";
 
 export const generateMetadata = async ({ params }) => {
     const { title } = await loadSingleBlogData(params.id)

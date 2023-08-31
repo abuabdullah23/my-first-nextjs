@@ -1,4 +1,4 @@
-import getAllProducts from "@/utils/api/getAllProducts";
+import getAllProducts from "@/utils/fetched-data/getAllProducts";
 import ManageProducts from "./ManageProducts";
 
 export const metadata = {

@@ -1,4 +1,4 @@
-import loadBlogsData from "@/utils/api/loadBlogsData";
+import loadBlogsData from "@/utils/fetched-data/loadBlogsData";
 import Link from "next/link";
 
 export const metadata = {

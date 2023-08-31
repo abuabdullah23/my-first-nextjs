@@ -1,4 +1,4 @@
-import getAllCategories from "@/utils/api/getAllCategories";
+import getAllCategories from "@/utils/fetched-data/getAllCategories";
 import SingleCategory from "./SingleCategory";
 
 const Categories = async () => {
