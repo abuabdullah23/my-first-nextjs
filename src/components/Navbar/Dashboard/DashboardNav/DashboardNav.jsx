@@ -13,6 +13,10 @@ const DashboardNav = () => {
             title: 'Add Products'
         },
         {
+            path: '/dashboard/all-products',
+            title: 'All Products'
+        },
+        {
             path: '/dashboard/manage-products',
             title: 'Manage Products'
         },

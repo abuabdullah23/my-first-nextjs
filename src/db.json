@@ -40,7 +40,7 @@
     {
       "id": 1,
       "title": "OnePlus 9",
-      "price": 799,
+      "price": "900",
       "categoryId": 2,
       "features": [
         "Snapdragon 888 processor",
@@ -51,8 +51,8 @@
     },
     {
       "id": 2,
-      "title": "OnePlus 9",
-      "price": 799,
+      "title": "OnePlus 12",
+      "price": "799",
       "categoryId": 2,
       "features": [
         "Snapdragon 888 processor",
@@ -122,31 +122,7 @@
       "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
     },
     {
-      "id": 8,
-      "title": "Google Pixel 4a",
-      "price": 349,
-      "categoryId": 4,
-      "features": [
-        "Snapdragon 730G processor",
-        "OLED display",
-        "Single-camera system"
-      ],
-      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-    },
-    {
       "id": 9,
-      "title": "OnePlus Nord 2",
-      "price": 399,
-      "categoryId": 4,
-      "features": [
-        "MediaTek Dimensity 1200 processor",
-        "AMOLED display",
-        "Triple-camera system"
-      ],
-      "imageUrl": "https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Clipart.png"
-    },
-    {
-      "id": 12,
       "title": "iPhone 13",
       "price": "200",
       "categoryId": "7",
@@ -154,7 +130,7 @@
       "imageUrl": "https://pngimg.com/uploads/iphone_14/small/iphone_14_PNG19.png"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Samsung galaxy s22",
       "price": "3432",
       "categoryId": "7",
