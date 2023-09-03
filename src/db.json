@@ -41,7 +41,7 @@
       "id": 1,
       "title": "OnePlus 9",
       "price": "900",
-      "categoryId": 2,
+      "categoryId": 1,
       "features": [
         "Snapdragon 888 processor",
         "Fluid AMOLED display",
@@ -53,7 +53,7 @@
       "id": 2,
       "title": "OnePlus 12",
       "price": "799",
-      "categoryId": 2,
+      "categoryId": 1,
       "features": [
         "Snapdragon 888 processor",
         "Fluid AMOLED display",
@@ -113,7 +113,7 @@
       "id": 7,
       "title": "Samsung Galaxy A52",
       "price": 349,
-      "categoryId": 3,
+      "categoryId": 4,
       "features": [
         "Snapdragon 720G processor",
         "Super AMOLED display",
@@ -125,7 +125,7 @@
       "id": 9,
       "title": "iPhone 13",
       "price": "200",
-      "categoryId": "7",
+      "categoryId": 5,
       "category": "white",
       "imageUrl": "https://pngimg.com/uploads/iphone_14/small/iphone_14_PNG19.png"
     },
@@ -133,7 +133,7 @@
       "id": 10,
       "title": "Samsung galaxy s22",
       "price": "3432",
-      "categoryId": "7",
+      "categoryId": 6,
       "category": "Black",
       "imageUrl": "https://freepngimg.com/thumb/samsung_mobile_phone/5-2-samsung-mobile-phone-png-hd.png"
     }
